@@ -1,3 +1,6 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,3 +16,16 @@
  *= require_tree .
  *= require_self
  */
+
+ .card {
+     border: 1px solid white;
+     box-shadow: 0px 10px 30px rgba(214, 214, 214, 2);
+     width: 330px;
+     height: 228px;
+     font-weight: bold;
+ }
+
+ .container {
+     display: flex;
+ }
+
